@@ -1,0 +1,23 @@
+{
+    "name": "jeherve/test",
+    "type": "project",
+    "require": {
+        "automattic/jetpack-tracking": "1.14.x-dev",
+        "automattic/jetpack-autoloader": "2.10.x-dev",
+        "automattic/jetpack-composer-plugin": "1.1.x-dev",
+        "automattic/jetpack-connection": "1.36.x-dev"
+    },
+    "authors": [
+        {
+            "name": "John Smith",
+            "email": "john@example.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "automattic/jetpack-autoloader": true,
+            "automattic/jetpack-composer-plugin": true
+        }
+    }
+}
